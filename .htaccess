@@ -1,0 +1,13 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^inicio(.*)$ index.html [L]
+RewriteRule ^sobre-a-empresa(.*)$ sobre.html [L]
+RewriteRule ^backup-em-nuvem(.*)$ backup-em-nuvem.html [L]
+RewriteRule ^colaboracoes(.*)$ colaboracoes.html [L]
+RewriteRule ^hospedagem-de-dominios(.*)$ hospedagem-de-dominios.html [L]
+RewriteRule ^infraestrutura(.*)$ infraestrutura.html [L]
+RewriteRule ^servicos-gerenciaveis(.*)$ servicos-gerenciaveis.html [L]
+RewriteRule ^politica-de-privacidade(.*)$ politica-de-privacidade.html [L]
+
